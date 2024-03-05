@@ -1,0 +1,83 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background-image: url(./pic/bg4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 100vh;
+  background-color: #407b8b; */
+}
+#container {
+  width: 100%;
+  height: 100vh;
+}
+#nav {
+  /* background-color: aqua; */
+  width: 100%;
+  height: 25%;
+  display: flex;
+  justify-content: space-between;
+}
+#logo {
+  width: 4%;
+  height: 40%;
+  padding-left: 2%;
+  padding-top: 3%;
+  cursor: pointer;
+}
+#pokemonlogo {
+  padding-top: 2%;
+  padding-left: 4%;
+}
+#homeabout {
+  cursor: pointer;
+  width: 4%;
+  height: 50%;
+  padding-right: 5%;
+  padding-top: 4%;
+  font-size: 40px;
+  color: #ffcb05;
+  /* border: 1px solid black; */
+}
+
+#card-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  /* background-color: antiquewhite; */
+  gap: 30px;
+  justify-content: space-evenly;
+  align-content: center;
+  padding-bottom: 40px;
+  padding-top: 50px;
+}
+.card {
+  padding: 40px;
+  width: 150px;
+  height: 250px;
+  background-color: #f9c94e;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 2%;
+  border: 1px solid black;
+}
+.cardpic {
+  width: 95%;
+  height: 80%;
+  /* background-color: black; */
+  background-image: url(./pic/char.png);
+  background-size: 200px;
+  background-repeat: no-repeat;
+}
+.cardname {
+  width: 95%;
+  height: 20%;
+  background-color: #676767;
+  border-radius: 10px;
+}
