@@ -16,7 +16,7 @@ body {
 #nav {
   /* background-color: aqua; */
   width: 100%;
-  height: 25%;
+  height: 20%;
   display: flex;
   justify-content: space-between;
   margin-bottom: 5%;
@@ -65,7 +65,7 @@ body {
   background-color: #ecc971;
   border-radius: 30px;
   position: relative;
-  width: 60%;
+  width: 50%;
   box-shadow: 33px 28px 33px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 33px 28px 33px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 33px 28px 33px 0px rgba(0, 0, 0, 0.75);
@@ -90,4 +90,47 @@ body {
 #img-pok img {
   width: 90%;
   height: 100%;
+}
+@media (max-width: 767px) {
+  #text-container {
+    height: 70%;
+    width: 90%;
+  }
+  #pokemonlogo {
+    width: 200px;
+    height: 100px;
+    display: none;
+  }
+  #nav {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30%;
+  }
+  #txt-details {
+    text-align: left;
+    font-size: 30px;
+  }
+  #img-pok {
+    bottom: 25%;
+    right: 20%;
+  }
+  #img-pok img {
+    width: 200%;
+    height: 200%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1000px) {
+  #txt-details {
+    text-align: left;
+    font-size: 30px;
+    line-height: 50px;
+  }
+  #img-pok {
+    bottom: 10%;
+    right: 6%;
+  }
+  #img-pok img {
+    width: 100%;
+    height: 100%;
+  }
 }
