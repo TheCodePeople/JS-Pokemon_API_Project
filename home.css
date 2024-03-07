@@ -35,7 +35,6 @@ body {
 #pokemonlogo {
   padding-top: 2%;
   padding-left: 4%;
-  
 }
 #homeabout {
   cursor: pointer;
@@ -44,7 +43,6 @@ body {
   font-size: 40px;
   color: #ffcb05;
   stroke: #395ca6;
-  
 }
 #homea {
   text-decoration: none;
@@ -52,7 +50,6 @@ body {
   margin-top: 5%;
   width: min-content;
   height: min-content;
-  
 }
 
 #card-container {
@@ -82,24 +79,33 @@ body {
   box-shadow: -10px 10px 19px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: -10px 10px 19px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -10px 10px 19px 0px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
 }
 .cardpic {
   width: 95%;
   height: 80%;
   /* background-color: black; */
-  background-image: url(./pic/char.png);
+  /* background-image: url(./pic/char.png); */
   background-size: 200px;
   background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 20px;
+}
+.cardpic img {
+  width: 100%;
+  height: 100%;
 }
 .cardname {
   width: 95%;
   height: 20%;
   background-color: #676767;
   border-radius: 10px;
+  color: white;
+  text-align: center;
+  padding-top: 15px;
 }
 
-@media (max-width:767px){
-  
+@media (max-width: 767px) {
   #pokemonlogo {
     width: 200px;
     height: 100px;

@@ -73,23 +73,24 @@ body {
 #txt-details {
   /* border: 1px solid black; */
   width: max-content;
-  font-size: 50px;
-  text-align: center;
-  margin-left: 15%;
+  font-size: 30px;
+  text-align: left;
+  margin-left: 10%;
   margin-top: 5%;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-#pok-name p {
+#pok-name {
   font-weight: bolder;
   color: #125063;
 }
-#img-pok {
+#img {
   position: absolute;
-  left: 60%;
+  left: 50%;
+  top: 45%;
 }
-#img-pok img {
-  width: 90%;
-  height: 100%;
+#img img {
+  width: 400%;
+  height: auto;
 }
 @media (max-width: 767px) {
   #text-container {
